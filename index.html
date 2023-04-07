@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- <img src="back.jpg" alt="banner" class="banner"> -->
+        <video autoplay muted loop class="banner">
+            <source src="./img/รูปไดคัทluxlight/1060203890-preview.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <img src="Logo-08.png" alt="" width="100%" height="100%" class="logo">
+        <div class="toggle"></div>
+    
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>     
+        <h1 style="text-align: center; padding:20px;">Category</h1>
+        <div class="grid">                                                    
+            <div class="grid-item a"><img src="img/รูปไดคัทluxlight/Mugarri.png" alt="Image"></div>
+            <div class="grid-item b"><img src="img/รูปไดคัทluxlight/Rafinat.png" alt="Image"></div>
+            <div class="grid-item c"><img src="img/รูปไดคัทluxlight/Blueme.png" alt="Image"></div>
+            <div class="grid-item d"><img src="img/รูปไดคัทluxlight/Millor.png" alt="Image"></div>                        
+            <div class="grid-item e" ><img src="img/รูปไดคัทluxlight/Langvarig.png" alt="Image"></div>
+            <div class="grid-item f"><img src="img/รูปไดคัทluxlight/Luminoso.png" alt="Image"></div>
+           
+            
+            
+        </div>                    
+    </section>
+    <!-- <section>
+        <h1 style="text-align: center; padding:20px;">Product</h1>
+        <div class="grid">                                                    
+            <div class="grid-item"><img src="img/gallery-img-23-01.jpg" alt="Image"></div>
+            <div class="grid-item"><img src="img/gallery-img-11-01.jpg" alt="Image"></div>
+            <div class="grid-item"><img src="img/gallery-img-12-01.jpg" alt="Image"></div>
+            
+            
+        </div>  
+    </section> -->
+    <section>
+        <h1 style="text-align: center; padding: 20px;">Product</h1>
+        <div class="card-section">
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Inoz.png" alt="Image">
+            </div>
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Inoz.png" alt="Image">
+            </div>
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Inoz.png" alt="Image">
+            </div>
+        </div>
+        
+        <div class="card-section">
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Poten.png" alt="Image">
+            </div>
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Poten.png" alt="Image">
+            </div>
+            <div class="card">
+                <img src="img/รูปไดคัทluxlight/Poten.png" alt="Image">
+            </div>
+        </div>          
+          
+    </section>
+
+
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Careers</h3>
+                            <ul>
+                                <li><a href="#">Job openings</a></li>
+                                <li><a href="#">Employee success</a></li>
+                                <li><a href="#">Benefits</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                            <p class="copyright">Company Name © 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+
+        const navigation = document.querySelector('nav')
+        document.querySelector('.toggle').onclick = function(){
+            this.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+
+
+    
+
+    </script>
+
+</body>
+
+  
+</html>
