@@ -41,7 +41,7 @@ header .logo{
     transition: 1s;
     text-decoration: none;
     z-index: 1;
-    width:  80%;
+    width:  50%;
     height: auto;
 }
 
@@ -100,7 +100,7 @@ header.sticky nav ul{
 }
 
 section{
-    margin-top: 10vh;
+    margin-top: 14vh;
     padding: 100px;
 }
 
